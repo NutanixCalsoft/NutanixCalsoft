@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Kubernetes">d736a7252f481010d5b9dcb6f699b6ae</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value>centos:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCyh19kFkO3oAYZrL2wbjOoK3DzGReYF6ZY59TYyvW7bCEGh2RFsCHsGlyNSFp8U19oGykSiIQAabGR42IbByqNgZ3IGr5+4hB29+IPMHo8Qk1LnNO9O+Cb+1XxOGmX0eRZl7HJcNDAZxMgTKghmT35odMXEjX9mQaX85NYKA0/id1kd7GOQGagLVcNPklZmYbAsaTXurTwLL5M0V0M3v5cBiwT/M4SWi1e/SJoCt0wGf4EsRb6PZo2rpqB7Z+9Vv1jadS+0cOjlzJ0eAPCkliPt6LP4wcCCMYcfEMcZmvGpKhIVzppPGl7X6lCE/OXUA+7GjqsX+QjCXIgN6fQUDPbW5HzejSG+xiOF3m9WJbylzGvogx+ESyNbgweqnZ+DPraUD5pLeszidWLZXQBOaIM9plOyww9rwd+lul2fgmf73V5R4+W8Nl7eZVjC33Tar5cUEi75AroURiKS+f1YAvQ8HjLlWkIGWURIpy9GhQaz9HGWwtqwDLTcAmUg1BDTHEjKaHYz849eGxoSl+cXTxMMUulALClXvBPadKdJWYXBDQ6N0gKi4TF6XK7Lyi5IGYPuyyKqX2xkntQoGmqRV5Ovxk7h9eAgSPy8DfbSLB3nUBTmXy7/cCgVQwwSGL7L/d54kisrYdMuwRZlfRF83v30mmZmeVxZmaklbg5WRmNtQ== centos@nutanix.com
+</default_value>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>kubernetes_master_key_0</name>
+        <order>736</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>Key 0</question_text>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 16:01:17</sys_created_on>
+        <sys_id>fca9e7652f881010d5b9dcb6f699b6ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Key 0</sys_name>
+        <sys_package display_value="Nutanix Calm" source="x_nuta2_nutanix_ca">3b7631654f452b001200e5201310c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nutanix Calm">3b7631654f452b001200e5201310c76b</sys_scope>
+        <sys_update_name>item_option_new_fca9e7652f881010d5b9dcb6f699b6ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 16:01:17</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>6</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width>50</variable_width>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="delete_multiple" query="documentkey=fca9e7652f881010d5b9dcb6f699b6ce"/>
+    <fx_price action="delete_multiple" query="id=fca9e7652f881010d5b9dcb6f699b6ce"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>fca9e7652f881010d5b9dcb6f699b6ce</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 16:01:17</sys_created_on>
+        <sys_id>3ca9e7652f881010d5b9dcb6f699b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 16:01:17</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>fca9e7652f881010d5b9dcb6f699b6ce</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 16:01:17</sys_created_on>
+        <sys_id>f0a9e7652f881010d5b9dcb6f699b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 16:01:17</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

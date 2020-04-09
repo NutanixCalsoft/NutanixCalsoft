@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_nuta2_nutanix_ca.Calm_Catalog_Variable</name>
+        <script><![CDATA[var $j = jQuery.noConflict();
+
+function render_variables(answer){
+
+	var str = '';
+	
+	if(answer && answer!="{}"){
+		var variable_data = (answer)?answer:g_form.getValue('variable_data');
+
+		variable_data = JSON.parse(variable_data);
+
+		var k = 0;
+
+		for(var i in variable_data){
+			var row = variable_data[i];
+
+			var check ='';
+
+			if(row.runtime_config==true || row.runtime_config=='true')
+				check = 'checked="true"';
+
+			var setVal = "onchange=\"setVal('" + i +"', this.value)\"";
+			var setRun = "onchange=\"setRuntime('" + i +"', this.checked)\"";
+
+			var fieldType = (row.data_type+'' == 'SECRET')?'password':'text';
+			var placeHolder = (row.data_type+'' == 'SECRET') ? 'placeholder="*******"' :'';
+			var isDisabled = (row.isdisabled+''=='true')?'disabled':'';
+			var mandatoryAttr = (row.mandatory+''=='true')?'required':'';
+			var isCheckBoxDisabled = isDisabled;
+			
+			if(row.data_type == 'EXEC_LOCAL' || row.data_type == 'HTTP_LOCAL' || row.data_type == 'EXEC_SECRET' || row.data_type == 'HTTP_SECRET') {
+				isCheckBoxDisabled = 'disabled';
+			}
+			var GWT_calm_format = {'DATE_TIME':'yyyy-MM-dd HH:mm:ss','DATE':'yyyy-MM-dd','TIME':'HH:mm:ss'};
+			
+			var spn = '';
+			
+			var inputType = '';
+
+			if(row.data_type+'' == 'SECRET')
+				spn = '<span class="field-icon toggle-password glyphicon glyphicon-eye-open spanField'+k+'" onclick="tooglePassword(\'field'+k+'\', \'spanField'+k+'\')"></span>';
+
+			if(k%2==0)
+				str = str + '<div class="containerStart">';
+
+			if(row.type+'' == '5')
+				inputType = '<select ' +placeHolder+ ' ' +isDisabled+ ' class="inputText field'+k+'" ' + setVal +' '+mandatoryAttr+'  id="'+row.uuid+'">'+_option_handler(row)+'</select>';
+			
+			if(row.type+'' == '21')
+				inputType = '<div><div id="span-'+row.uuid+'"></div><select ' +placeHolder+ ' ' +isDisabled+ ' '+mandatoryAttr+' onchange="selectOption(\'addOption\',this.value, \''+i+'\')" class="inputText field'+k+'" id="'+row.uuid+'">'+_option_handler(row)+'</select></div>';
+			
+			if(row.type+'' == '9')
+				inputType = '<span class="input-group"><input type="text" id="'+row.uuid+'" class="form-control" ' + setVal +' style="background-color:white;" ReadOnly="true" value="'+_option_handler(row)+'"/><span class="input-group-btn"><button class="btn btn-default" ' +isDisabled+ ' onclick="new GwtDateTimePicker(\''+row.uuid+'\', \''+GWT_calm_format[row.val_type]+'\', false)"><span class="icon-calendar icon"></span></button></span></span>';
+			
+			if(row.type+'' == '10')
+				inputType = '<span class="input-group"><input type="text" id="'+row.uuid+'" class="form-control" ' + setVal +' style="background-color:white;" ReadOnly="true" value="'+_option_handler(row)+'"/><span class="input-group-btn"><button class="btn btn-default" ' +isDisabled+ ' onclick="new GwtDateTimePicker(\''+row.uuid+'\', \''+GWT_calm_format[row.val_type]+'\', true)"><span class="icon-calendar icon"></span></button></span></span>';
+			
+			if(row.type+'' == '2')
+				inputType = '<textarea ' +placeHolder+ ' ' +isDisabled+ ' '+mandatoryAttr+' class="inputText field'+k+'" ' + setVal +'  id="'+row.uuid+'">'+_option_handler(row)+'</textarea>';
+			
+			if(row.type+'' == '6')
+				inputType = '<input type="'+fieldType+'" ' +placeHolder+ ' ' +isDisabled+ ' ' + setVal +' '+mandatoryAttr+' class="inputText field'+k+'" id="'+row.uuid+'" value="'+_option_handler(row)+'"/>';
+			
+			if(row.type+'' == '25')
+				inputType = '<input type="'+fieldType+'" ' +placeHolder+ ' ' +isDisabled+ ' ' + setVal +' '+mandatoryAttr+' class="inputText field'+k+'" id="'+row.uuid+'"/>';
+			
+			/*if(row.type+'' == '25') {
+				inputType = '<input class="inputText field'+k+'" type="password" value="' + row.value + '"' + setVal +' '+isDisabled+'>';
+				spn = '<span class="field-icon toggle-password glyphicon glyphicon-eye-open spanField'+k+'" onclick="tooglePassword(\'field'+k+'\', \'spanField'+k+'\')"></span>';
+			}
+			else if(row.type+'' == '21' || row.type+'' == '5') {
+				inputType = '<select id='+row.uuid+' class="inputText field'+k+'" '+ setVal +' '+isDisabled+'>'+_option_handler(row)+'</select>';
+			}
+			else {
+				inputType = '<input class="inputText field'+k+'" type="text" value="' + row.value + '"' + setVal +' '+isDisabled+'>';
+			}
+			*/
+			var desc = '';
+			if(row.description != '')
+				desc = '<div style="padding: 5px 1px; margin-bottom: 10px; background-color: #e8f0fa; color: #007eff; position: relative;">'+row.description+'</div>';
+			
+			var htmlStr = '<div style="padding:15px 40px; width: 50%"><div style="padding:1px 1px 12px 1px;"><span style="float:left;"><strong>' + row.question_text + '</span></strong><span style="float:right;"><input class="inputCheckbox" style="margin-right:2px" ' + setRun + ' type="checkbox" ' + check + ' '+isCheckBoxDisabled+'></input>Runtime </span></div> <div style="padding-top:14px;">'+desc+' '+inputType+'</div>' + spn + '</div>';
+
+			str = str + htmlStr;
+
+			if(k%2!=0)
+				str = str + '</div>';
+
+			k++;
+
+		}	
+	}else{
+		str = "<p style='padding-bottom:20px'>No variables are defined for this blueprint.</p>";
+	}
+	$j(".bodyData").html('');
+	$j(".bodyData").append(str);
+	
+	var second_var_run = JSON.parse((answer)?answer:g_form.getValue('variable_data'));
+	
+	for(var j in second_var_run) {
+		if(second_var_run[j].type + '' == '5')
+			$j("#"+second_var_run[j].uuid).val(second_var_run[j].value);
+		if(second_var_run[j].type + '' == '21')	
+			selectOption("initrun","", j);
+	}
+	
+	new GlideModal().get('profile_loader').destroy();
+}
+
+function selectOption(type, multiValOption, key) {
+	
+	multiValOption = unescape(multiValOption);
+	var variable_data = JSON.parse(g_form.getValue('variable_data'));
+	var row_uuid = variable_data[key].uuid + '';
+	var tmp_array = (variable_data[key].value != '') ? variable_data[key].value.split(',') : [];
+	
+	if(type == 'addOption' && tmp_array.indexOf(multiValOption) == -1 && multiValOption != '') {
+		tmp_array.push(multiValOption);
+		$j('#'+row_uuid).find('option[value="'+ multiValOption + '"]').remove();
+	}
+	
+	if(type == 'removeOption' && tmp_array.indexOf(multiValOption) != -1) {
+		var index = tmp_array.indexOf(multiValOption);
+		if (index > -1) {
+			tmp_array.splice(index, 1);
+		}
+		var option = '<option value="'+multiValOption+'">'+multiValOption+'</option>';
+		$j("#"+row_uuid).append(option);
+	}
+	if(type == 'initrun') {
+		for(var k = 0; k < tmp_array.length; k++ )
+			$j('#'+row_uuid).find('option[value="'+ tmp_array[k] + '"]').remove();
+	}
+	
+	variable_data[key].value = tmp_array.toString();
+	
+	g_form.setValue('variable_data', JSON.stringify(variable_data));
+	
+	var spanOptions = '';
+	for(var i = 0 ; i < tmp_array.length; i++) {
+		 spanOptions += '<div style="display: -webkit-inline-box; margin: 3px;"><span style="margin: 3px; padding: 5px; border: 1px solid rgba(0, 126, 255, 0.24); line-height: 13px; font-size: 12px; display: inline-block; border-radius: 2px; background-color: rgba(0, 126, 255, 0.08); color: #007eff;">'+tmp_array[i]+'<a href="#" onclick="selectOption(\'removeOption\',\''+escape(tmp_array[i])+'\', \''+key+'\')"><i class="icon-cross" style="padding-left: 7px;font-size: 11px;margin-top: -4px;"></i></a></span></div>';
+
+	}
+	$j("#span-"+row_uuid).html(spanOptions);
+}
+
+function setVal(yup, value){
+	var variable_data = JSON.parse(g_form.getValue('variable_data'));
+	variable_data[yup].value = value;
+	g_form.setValue('variable_data', JSON.stringify(variable_data));
+	
+	//_validateField(yup, value);
+}
+
+function setRuntime(yup, value){
+	var variable_data = JSON.parse(g_form.getValue('variable_data'));
+	variable_data[yup].runtime_config = value;
+	g_form.setValue('variable_data', JSON.stringify(variable_data));
+}
+
+function responseParse(response) {
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	g_form.setValue('variable_data', answer);
+	render_variables(answer);
+}
+
+function getProfileVariableData(){
+	
+	var loadingDialog = new GlideModal("profile_loader", true);
+	loadingDialog.setTitle('Getting profile Variables...');  
+	
+	var val = g_form.getValue('variable_data');
+	
+	if(val){
+		render_variables(val);
+		return;
+	}
+	
+	loadingDialog.renderWithContent('<div class="loading-container"><div class="loading-indicator icon-loading icon-lg"></div></div>');
+	
+	var type = g_form.getValue('type');
+	
+	var project = g_form.getValue('project');
+	var blueprint = (type=='update')?g_form.getValue('cat_item'):g_form.getValue('blueprint');
+	var application_profile = g_form.getValue('application_profile');
+	
+	
+	
+	var ga = new GlideAjax('Nutanix_ClientServerScriptBridge');
+	ga.addParam('sysparm_name', 'getProfileVariableDetails');
+	ga.addParam('sysparm_project', project);
+	ga.addParam('sysparm_blueprint', blueprint);
+	ga.addParam('sysparm_application_profile', application_profile);
+	ga.getXML(responseParse);
+}
+
+function tooglePassword(field, fieldspan){
+	var input = $j('.'+field);
+	
+	if (input.attr("type") == "password") {
+		input.attr("type", "text");
+	} else {
+		input.attr("type", "password");
+	}
+}
+
+function _option_handler(arr_json) {
+	
+	var options = '';
+	if(!(arr_json.type+'' == '21' || arr_json.type+'' == '5')) {
+		if(arr_json.data_type == 'EXEC_LOCAL' || arr_json.data_type == 'HTTP_LOCAL' || arr_json.data_type == 'EXEC_SECRET' || arr_json.data_type == 'HTTP_SECRET')
+		{
+			_setRequestValues(arr_json);
+		}
+		else
+			options = arr_json.value + '';
+	}
+	else {
+		if(arr_json.data_type == 'EXEC_LOCAL' || arr_json.data_type == 'HTTP_LOCAL' || arr_json.data_type == 'EXEC_SECRET' || arr_json.data_type == 'HTTP_SECRET')
+		{
+			g_form.addInfoMessage('Fetching values for variable "'+arr_json.question_text+'"');
+			_setRequestValues(arr_json);
+		}
+		else {
+			options = '<option value=""></option>';
+			for(var i = 0; i < arr_json.options.length; i++) {
+				options += '<option value="' +arr_json.options[i]+'">'+arr_json.options[i]+'</option>';
+			}
+		}
+	}
+	
+	return options;
+}
+
+function _setRequestValues(arr_json) {
+	
+	var loadingDialog = new GlideModal(arr_json.name+'_loader', true);
+	loadingDialog.setTitle('Fetching values for ' + arr_json.question_text + '...'); 
+	loadingDialog.renderWithContent('<div class="loading-container"><div class="loading-indicator icon-loading icon-lg"></div></div>');
+	
+	var type = g_form.getValue('type_of_blueprint');
+	var blueprintSysId = g_form.getValue('blueprint');
+	
+	var gajax = new GlideAjax('Nutanix_ClientServerScriptBridge');
+	gajax.addParam('sysparm_name', 'getHttpValues');
+	gajax.addParam('sysparm_type', type);
+	gajax.addParam('sysparm_parentUuid', blueprintSysId + '');
+	gajax.addParam('sysparm_varUuid', arr_json.uuid + '');
+	gajax.getXML(getResponse, null, arr_json);
+}
+
+function getResponse(response, arr_json){//var_data, loadingDialog){//, loadingDialog) {
+	g_form.clearMessages();
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	var parsedAnswer = JSON.parse(answer);
+	var options = '';
+	if(parsedAnswer.state == 'SUCCESS') {
+		options = '<option value=""></option>';
+		for(var i = 0; i < parsedAnswer.values.length; i++)
+			options += '<option value="' +parsedAnswer.values[i]+'">'+parsedAnswer.values[i]+'</option>';
+		$j("#"+arr_json.uuid).append(options);
+		$j("#"+arr_json.uuid).val(arr_json.value);
+	}
+	else {
+		var msg = '';
+		for(var j = 0; j < parsedAnswer.values.length; j++)
+			msg += parsedAnswer.values[j];
+		g_form.addErrorMessage("Failed fetching values for variable '"+arr_json.question_text+"': "+msg);
+	}
+	new GlideModal().get(arr_json.name+'_loader').destroy();
+}
+
+/*function _validateField(index, field_val) {
+	
+	var variable_data = JSON.parse(g_form.getValue('variable_data'));
+	var var_name = variable_data[index].question_text + '';
+	var reg_exp_str = variable_data[index].regex + '';
+	var is_mandatory = variable_data[index].mandatory + '';
+	var reg_exp = new RegExp(reg_exp_str);
+	
+	$j(".error_body").html('');
+	if(!reg_exp.test(field_val)) {
+		var msg = var_name+"'s value "+field_val+" doesn't match with specified regex '"+reg_exp_str+"'";
+		var error_str = '<div class="alert alert-danger" style="padding: 5px 16px; position: relative; margin: 5px 0px;">'+msg+'</div>';
+		$j(".error_body").append(error_str);
+	}
+	
+	if(is_mandatory && field_val == '')  {
+		var mandatory_msg =  "Variable '"+var_name+"' is marked as mandatory. Assign a value to it";
+		var man_error_str = '<div class="alert alert-danger" style="padding: 5px 16px; position: relative; margin: 5px 0px;">'+mandatory_msg+'</div>';
+		//$j(".error_body").html('');
+		$j(".error_body").append(man_error_str);
+	}
+}*/
+]]></script>
+        <script_name>Calm_Catalog_Variable_Config_Script</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>girishgyani</sys_created_by>
+        <sys_created_on>2018-10-31 09:42:02</sys_created_on>
+        <sys_id>b7e56ae437a12300fdfc097973990e63</sys_id>
+        <sys_mod_count>217</sys_mod_count>
+        <sys_name>x_nuta2_nutanix_ca.Calm_Catalog_Variable</sys_name>
+        <sys_package display_value="Nutanix Calm" source="x_nuta2_nutanix_ca">3b7631654f452b001200e5201310c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nutanix Calm">3b7631654f452b001200e5201310c76b</sys_scope>
+        <sys_update_name>sys_ui_script_b7e56ae437a12300fdfc097973990e63</sys_update_name>
+        <sys_updated_by>bharat</sys_updated_by>
+        <sys_updated_on>2020-03-05 11:15:52</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

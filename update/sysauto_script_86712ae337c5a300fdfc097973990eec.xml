@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Nutanix_Import Inventories Job</name>
+        <run_as/>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-10-15 20:23:09</run_start>
+        <run_time>1970-01-01 09:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var appUtil;
+if(current.active+'' == 'false'){
+	appUtil = new Nutanix_Calm_Logger();
+	appUtil.error(current.name+' schedule job is in active false state. Please activate it before executing the same.');
+}else{
+	appUtil = new Nutanix_Calm_Utils();
+	appUtil.insertIntoQueue('startInventorySync', '', '', '', 'Start inventory sync', 'This process is invoking the import of all the inventories.');
+}  
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>girishgyani</sys_created_by>
+        <sys_created_on>2018-10-15 20:23:44</sys_created_on>
+        <sys_id>86712ae337c5a300fdfc097973990eec</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>Nutanix_Import Inventories Job</sys_name>
+        <sys_package display_value="Nutanix Calm" source="x_nuta2_nutanix_ca">3b7631654f452b001200e5201310c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nutanix Calm">3b7631654f452b001200e5201310c76b</sys_scope>
+        <sys_update_name>sysauto_script_86712ae337c5a300fdfc097973990eec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 09:13:47</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

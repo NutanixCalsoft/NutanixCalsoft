@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Refresh Token</description>
+        <internal_name>nutanix_refresh_token</internal_name>
+        <label_cache>[{"name":"{{action.credentialalias}}","label":"action➛credentialAlias","type":"action","ref":""},{"name":"{{action.midapplication}}","label":"action➛midApplication","type":"action","ref":""},{"name":"{{action.endpoint}}","label":"action➛endpoint","type":"action","ref":""},{"name":"{{step[1b9a3c94-a0da-44fe-9cb0-0373d47b0c14].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[1b9a3c94-a0da-44fe-9cb0-0373d47b0c14].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[1b9a3c94-a0da-44fe-9cb0-0373d47b0c14].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>aa43a3652fc41010d5b9dcb6f699b6d6</latest_snapshot>
+        <master_snapshot>b1a67f201b5f0410e1e51067bc4bcb98</master_snapshot>
+        <name>Nutanix_Refresh_Token</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-28 07:30:44</sys_created_on>
+        <sys_id>8835f7ac1b1f0410e1e51067bc4bcb30</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Nutanix_Refresh_Token</sys_name>
+        <sys_package display_value="Nutanix Calm" source="x_nuta2_nutanix_ca">3b7631654f452b001200e5201310c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nutanix Calm">3b7631654f452b001200e5201310c76b</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_8835f7ac1b1f0410e1e51067bc4bcb30</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-28 07:37:08</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=8835f7ac1b1f0410e1e51067bc4bcb30"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8835f7ac1b1f0410e1e51067bc4bcb30"/>
+    <sys_element_mapping action="delete_multiple" query="id=8835f7ac1b1f0410e1e51067bc4bcb30"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>8835f7ac1b1f0410e1e51067bc4bcb30</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-28 07:37:06</sys_created_on>
+        <sys_id>ada67f201b5f0410e1e51067bc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-28 07:37:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_8835f7ac1b1f0410e1e51067bc4bcb30</table>
+        <value>{{step[1b9a3c94-a0da-44fe-9cb0-0373d47b0c14].response_headers}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>8835f7ac1b1f0410e1e51067bc4bcb30</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-28 07:37:06</sys_created_on>
+        <sys_id>61a67f201b5f0410e1e51067bc4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-28 07:37:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_8835f7ac1b1f0410e1e51067bc4bcb30</table>
+        <value>{{step[1b9a3c94-a0da-44fe-9cb0-0373d47b0c14].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>statuscode</field>
+        <id>8835f7ac1b1f0410e1e51067bc4bcb30</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-28 07:37:06</sys_created_on>
+        <sys_id>e9a67f201b5f0410e1e51067bc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-28 07:37:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_8835f7ac1b1f0410e1e51067bc4bcb30</table>
+        <value>{{step[1b9a3c94-a0da-44fe-9cb0-0373d47b0c14].status_code}}</value>
+    </sys_element_mapping>
+</record_update>

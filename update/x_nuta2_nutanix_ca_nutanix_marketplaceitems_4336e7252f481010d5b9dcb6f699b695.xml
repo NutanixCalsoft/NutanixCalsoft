@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_nuta2_nutanix_ca_nutanix_marketplaceitems">
+    <x_nuta2_nutanix_ca_nutanix_marketplaceitems action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <app_state>PUBLISHED</app_state>
+        <appfamily>Backup</appfamily>
+        <author>Nutanix</author>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <blueprint_name/>
+        <category display_value="Published Blueprints">88bfbad237512300fdfc097973990e06</category>
+        <cloned_bp_json/>
+        <cloned_bp_name/>
+        <cloned_bp_uuid/>
+        <cost>0</cost>
+        <creation_time>1575722564014514</creation_time>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-01 00:00:00</delivery_time>
+        <description><![CDATA[<p>HYCU is the industry's first purpose-built backup and recovery software for Nutanix. HYCU combines simplicity with ease of management and the elegance of use with a Prism look and feel. Designed to be hypervisor agnostic, HYCU currently supports AHV with ESX support coming shortly. HYCU has a number of key differentiators, including leveraging the power of Nutanix Storage level snapshots via the v3 API to deliver impact free backup and rapid recovery while implementing incremental forever strategy.
+Learn more about HYCU in our short video series <a href="https://www.youtube.com/playlist?list=PLleIgKNW3w6r7f0sI3-vTmb5dxOBkqBzg">here</a>. If you have any question or need more information, please contact us at HYCU@comtradesoftware.com. </p>
+<strong id="license">License:</strong>
+<ul style="list-style-position: inside;">
+<li><a href="https://www.comtradesoftware.com/free-trial/">45-day free trial</a></li>
+</ul>
+<strong id="hardwarerequirement">Hardware Requirement:</strong>
+<ul style="list-style-position: inside;">
+<li>2vCPU, 4GB RAM and 20GB SCSI Storage</li>
+</ul>
+<strong id="platform">Platform:</strong>
+<ul style="list-style-position: inside;">
+<li>AHV</li>
+</ul>
+<strong id="supportinformation">Support Information:</strong>
+<ul style="list-style-position: inside;">
+<li>Email: hycusupport@comtradesoftware.com</li>
+<li>Phone: +1 (877) 447-5774</li>
+</ul>
+<strong id="accessibility">Accessibility:</strong>
+<ul style="list-style-position: inside;">
+<li>https://[IP_ADDRESS]:8443/</li>
+<li>SSH username/password [hycu]/[hycu/4u]</li>
+<li>UI username/password [admin]/[admin]</li>
+</ul>]]></description>
+        <description_markdown>HYCU is the industry's first purpose-built backup and recovery software for Nutanix. HYCU combines simplicity with ease of management and the elegance of use with a Prism look and feel. Designed to be hypervisor agnostic, HYCU currently supports AHV with ESX support coming shortly. HYCU has a number of key differentiators, including leveraging the power of Nutanix Storage level snapshots via the v3 API to deliver impact free backup and rapid recovery while implementing incremental forever strategy.
+Learn more about HYCU in our short video series [here](https://www.youtube.com/playlist?list=PLleIgKNW3w6r7f0sI3-vTmb5dxOBkqBzg). If you have any question or need more information, please contact us at HYCU@comtradesoftware.com. 
+#### License:
+* [45-day free trial](https://www.comtradesoftware.com/free-trial/)
+#### Hardware Requirement:
+* 2vCPU, 4GB RAM and 20GB SCSI Storage
+#### Platform:
+* AHV
+#### Support Information:
+* Email: hycusupport@comtradesoftware.com
+* Phone: +1 (877) 447-5774
+#### Accessibility:
+* https://[IP_ADDRESS]:8443/
+* SSH username/password [hycu]/[hycu/4u]
+* UI username/password [admin]/[admin]
+</description_markdown>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <last_update_time>1575873164942048</last_update_time>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>HYCU</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>true</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>true</no_proceed_checkout>
+        <no_quantity>true</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>true</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner_name>admin</owner_name>
+        <owner_uuid/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=4336e7252f481010d5b9dcb6f699b695&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>240abede37112300fdfc097973990e24</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>HYCU</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <spec_version>2</spec_version>
+        <start_closed>false</start_closed>
+        <state>active</state>
+        <sys_class_name>x_nuta2_nutanix_ca_nutanix_marketplaceitems</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:46:25</sys_created_on>
+        <sys_id>4336e7252f481010d5b9dcb6f699b695</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HYCU</sys_name>
+        <sys_package display_value="Nutanix Calm" source="x_nuta2_nutanix_ca">3b7631654f452b001200e5201310c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nutanix Calm">3b7631654f452b001200e5201310c76b</sys_scope>
+        <sys_update_name>x_nuta2_nutanix_ca_nutanix_marketplaceitems_4336e7252f481010d5b9dcb6f699b695</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:46:25</sys_updated_on>
+        <template/>
+        <template_type>Multi Vm/Pod</template_type>
+        <type>item</type>
+        <use_sc_layout>false</use_sc_layout>
+        <uuid>b9498e5d-3d94-408b-8c1e-5e8f98b5f55f</uuid>
+        <vendor/>
+        <version>1.0.0</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Nutanix - Blueprint Launch to CALM">30421c83375d2300d27b8cf6c3990e01</workflow>
+    </x_nuta2_nutanix_ca_nutanix_marketplaceitems>
+    <sys_translated_text action="delete_multiple" query="documentkey=4336e7252f481010d5b9dcb6f699b695"/>
+    <fx_price action="delete_multiple" query="id=4336e7252f481010d5b9dcb6f699b695"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>4336e7252f481010d5b9dcb6f699b695</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:46:25</sys_created_on>
+        <sys_id>c736e7252f481010d5b9dcb6f699b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:46:25</sys_updated_on>
+        <table>x_nuta2_nutanix_ca_nutanix_marketplaceitems</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>4336e7252f481010d5b9dcb6f699b695</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:46:25</sys_created_on>
+        <sys_id>0336e7252f481010d5b9dcb6f699b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:46:25</sys_updated_on>
+        <table>x_nuta2_nutanix_ca_nutanix_marketplaceitems</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

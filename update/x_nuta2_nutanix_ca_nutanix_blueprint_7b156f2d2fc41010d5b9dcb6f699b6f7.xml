@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_nuta2_nutanix_ca_nutanix_blueprint">
+    <x_nuta2_nutanix_ca_nutanix_blueprint action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <app_uuid/>
+        <application_count>0</application_count>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <blueprint_name/>
+        <category display_value="Un-Published Blueprints">7a30431637512300fdfc097973990ec8</category>
+        <cost>0</cost>
+        <creation_time>2020-3-4 12:1:11</creation_time>
+        <custom_cart/>
+        <deleted>false</deleted>
+        <deletion_time>1970-1-1 0:0:0</deletion_time>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-01 00:00:00</delivery_time>
+        <description/>
+        <description_markdown/>
+        <entitlement_script/>
+        <entity_verison>2</entity_verison>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <is_cloned>false</is_cloned>
+        <kind>blueprint</kind>
+        <last_update_time>2020-3-4 12:3:47</last_update_time>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>calsoft_bp</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>true</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>true</no_proceed_checkout>
+        <no_quantity>true</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>true</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner_name>admin</owner_name>
+        <owner_uuid>00000000-0000-0000-0000-000000000000</owner_uuid>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=7b156f2d2fc41010d5b9dcb6f699b6f7&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <project_name>UAT_Nutanix_Mar2020</project_name>
+        <project_uuid>d9afaac3-db53-4b3f-9ccf-0859379b4cb6</project_uuid>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>240abede37112300fdfc097973990e24</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <schema_version>1.1.0</schema_version>
+        <short_description>calsoft_bp</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <source_mpi/>
+        <start_closed>false</start_closed>
+        <state>ACTIVE</state>
+        <sys_class_name>x_nuta2_nutanix_ca_nutanix_blueprint</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:41:32</sys_created_on>
+        <sys_id>7b156f2d2fc41010d5b9dcb6f699b6f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>calsoft_bp</sys_name>
+        <sys_package display_value="Nutanix Calm" source="x_nuta2_nutanix_ca">3b7631654f452b001200e5201310c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nutanix Calm">3b7631654f452b001200e5201310c76b</sys_scope>
+        <sys_update_name>x_nuta2_nutanix_ca_nutanix_blueprint_7b156f2d2fc41010d5b9dcb6f699b6f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:41:33</sys_updated_on>
+        <template/>
+        <template_type>Multi Vm/Pod</template_type>
+        <type>item</type>
+        <use_sc_layout>false</use_sc_layout>
+        <uuid>e1779d1d-d103-dea4-3065-8237f90af974</uuid>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Nutanix - Blueprint Launch to CALM">30421c83375d2300d27b8cf6c3990e01</workflow>
+    </x_nuta2_nutanix_ca_nutanix_blueprint>
+    <sys_translated_text action="delete_multiple" query="documentkey=7b156f2d2fc41010d5b9dcb6f699b6f7"/>
+    <fx_price action="delete_multiple" query="id=7b156f2d2fc41010d5b9dcb6f699b6f7"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>7b156f2d2fc41010d5b9dcb6f699b6f7</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:41:32</sys_created_on>
+        <sys_id>3315af2d2fc41010d5b9dcb6f699b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:41:32</sys_updated_on>
+        <table>x_nuta2_nutanix_ca_nutanix_blueprint</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>7b156f2d2fc41010d5b9dcb6f699b6f7</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:41:32</sys_created_on>
+        <sys_id>7b15af2d2fc41010d5b9dcb6f699b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:41:32</sys_updated_on>
+        <table>x_nuta2_nutanix_ca_nutanix_blueprint</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

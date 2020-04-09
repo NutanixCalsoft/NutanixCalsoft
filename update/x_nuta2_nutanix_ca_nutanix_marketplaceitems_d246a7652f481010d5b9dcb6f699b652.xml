@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_nuta2_nutanix_ca_nutanix_marketplaceitems">
+    <x_nuta2_nutanix_ca_nutanix_marketplaceitems action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <app_state>PUBLISHED</app_state>
+        <appfamily>DevOps</appfamily>
+        <author>Nutanix</author>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <blueprint_name/>
+        <category display_value="Published Blueprints">88bfbad237512300fdfc097973990e06</category>
+        <cloned_bp_json/>
+        <cloned_bp_name/>
+        <cloned_bp_uuid/>
+        <cost>0</cost>
+        <creation_time>1575722555666284</creation_time>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-01 00:00:00</delivery_time>
+        <description><![CDATA[<p>Lamp is an open source Web development platform that uses Linux as the operating system, Apache2 as the Web server, MySQL as the relational database management system and PHP as the object-oriented scripting language.
+This app creates 4 VMs. Two application VMs, one Mysql VM and one Haproxy on Centos 7</p>
+<strong id="license">License:</strong>
+<ul style="list-style-position: inside;">
+<li>PHP License v3.01</li>
+<li>GPL Version 2.0</li>
+<li>Apache License 2.0</li>
+<li>Free software (GPL and other licenses)</li>
+</ul>
+<strong id="hardwarerequirement">Hardware Requirement:</strong>
+<ul style="list-style-position: inside;">
+<li>By default,four VM's each with 2 vCPU, 4GB RAM</li>
+</ul>
+<strong id="resourcesinstalled">Resources Installed:</strong>
+<ul style="list-style-position: inside;">
+<li>Mysql 5.6</li>
+<li>PHP 5.6</li>
+<li>HA Proxy 1.5</li>
+<li>Apache2 2.4.6</li>
+</ul>
+<strong id="operatingsystem">Operating System:</strong>
+<ul style="list-style-position: inside;">
+<li>CentOS Linux release 7.4-1801-01</li>
+<li>Select the <a href="https://goo.gl/td2eJJ">AMI</a> according to the region on AWS.</li>
+<li>Select the <a href="https://goo.gl/51oD7D">Image</a> according to the zone on GCP.</li>
+<li>Select the <a href="https://goo.gl/KZAjE6">Image</a> according to the location on Azure.</li>
+</ul>
+<strong id="platform">Platform:</strong>
+<ul style="list-style-position: inside;">
+<li>AHV</li>
+<li>AWS</li>
+<li>GCP</li>
+<li>Azure</li>
+</ul>
+<strong id="lifecycle">Lifecycle:</strong>
+<ul style="list-style-position: inside;">
+<li>DB Backup</li>
+<li>AppScaleOut</li>
+<li>AppScaleIn</li>
+</ul>
+<strong id="limitations">Limitations:</strong>
+<ul style="list-style-position: inside;">
+<li>For evaluation purpose only. Not recommended for production use.</li>
+</ul>
+<strong id="otherinstructions">Other Instructions:</strong>
+<ul style="list-style-position: inside;">
+<li>Open ports <code>3360</code>,<code>80</code>,<code>8080</code></li>
+</ul>
+<strong id="accessiblility">Accessiblility:</strong>
+<ul style="list-style-position: inside;">
+<li>Access PHP info from http://[HAPROXY_IP]/info.php</li>
+</ul>]]></description>
+        <description_markdown>Lamp is an open source Web development platform that uses Linux as the operating system, Apache2 as the Web server, MySQL as the relational database management system and PHP as the object-oriented scripting language.
+This app creates 4 VMs. Two application VMs, one Mysql VM and one Haproxy on Centos 7
+#### License:
+* PHP License v3.01
+* GPL Version 2.0
+* Apache License 2.0
+* Free software (GPL and other licenses)
+#### Hardware Requirement:
+* By default,four VM's each with 2 vCPU, 4GB RAM
+#### Resources Installed:
+* Mysql 5.6
+* PHP 5.6
+* HA Proxy 1.5
+* Apache2 2.4.6
+#### Operating System:
+* CentOS Linux release 7.4-1801-01
+* Select the [AMI](https://goo.gl/td2eJJ) according to the region on AWS.
+* Select the [Image](https://goo.gl/51oD7D) according to the zone on GCP.
+* Select the [Image](https://goo.gl/KZAjE6) according to the location on Azure.
+#### Platform:
+* AHV
+* AWS
+* GCP
+* Azure
+#### Lifecycle:
+* DB Backup
+* AppScaleOut
+* AppScaleIn
+#### Limitations:
+* For evaluation purpose only. Not recommended for production use.
+#### Other Instructions:
+* Open ports `3360`,`80`,`8080`
+#### Accessiblility:
+* Access PHP info from http://[HAPROXY_IP]/info.php
+
+</description_markdown>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <last_update_time>1576746806335977</last_update_time>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>LAMP</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>true</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>true</no_proceed_checkout>
+        <no_quantity>true</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>true</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner_name>admin</owner_name>
+        <owner_uuid/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=d246a7652f481010d5b9dcb6f699b652&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>240abede37112300fdfc097973990e24</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>LAMP</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <spec_version>3</spec_version>
+        <start_closed>false</start_closed>
+        <state>active</state>
+        <sys_class_name>x_nuta2_nutanix_ca_nutanix_marketplaceitems</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:46:37</sys_created_on>
+        <sys_id>d246a7652f481010d5b9dcb6f699b652</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>LAMP</sys_name>
+        <sys_package display_value="Nutanix Calm" source="x_nuta2_nutanix_ca">3b7631654f452b001200e5201310c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nutanix Calm">3b7631654f452b001200e5201310c76b</sys_scope>
+        <sys_update_name>x_nuta2_nutanix_ca_nutanix_marketplaceitems_d246a7652f481010d5b9dcb6f699b652</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:46:38</sys_updated_on>
+        <template/>
+        <template_type>Multi Vm/Pod</template_type>
+        <type>item</type>
+        <use_sc_layout>false</use_sc_layout>
+        <uuid>ad44b1b9-3600-458d-a253-67538dc27015</uuid>
+        <vendor/>
+        <version>3.0.0</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Nutanix - Blueprint Launch to CALM">30421c83375d2300d27b8cf6c3990e01</workflow>
+    </x_nuta2_nutanix_ca_nutanix_marketplaceitems>
+    <sys_translated_text action="delete_multiple" query="documentkey=d246a7652f481010d5b9dcb6f699b652"/>
+    <fx_price action="delete_multiple" query="id=d246a7652f481010d5b9dcb6f699b652"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>d246a7652f481010d5b9dcb6f699b652</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:46:38</sys_created_on>
+        <sys_id>d646a7652f481010d5b9dcb6f699b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:46:38</sys_updated_on>
+        <table>x_nuta2_nutanix_ca_nutanix_marketplaceitems</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>d246a7652f481010d5b9dcb6f699b652</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:46:38</sys_created_on>
+        <sys_id>1246a7652f481010d5b9dcb6f699b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:46:38</sys_updated_on>
+        <table>x_nuta2_nutanix_ca_nutanix_marketplaceitems</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

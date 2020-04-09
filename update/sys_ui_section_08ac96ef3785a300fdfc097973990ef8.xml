@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Plugin Properties" section_id="08ac96ef3785a300fdfc097973990ef8" sys_domain="global" table="x_nuta2_nutanix_ca_calm_plugin_configuration" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>485eaa26071740100df8f1e08c1ed07c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <text>You cannot edit the Calm instance URL once it is successfully authenticated.  Delete inventory (that cleans up the entire CMDB) re-enables edit option on Calm instance</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_nuta2_nutanix_ca_Nutanix_logo_on_config.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>405eaa26071740100df8f1e08c1ed07d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Nutanix_logo_on_Config">17f3f8abdb05230084249235ca961994</sys_ui_formatter>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_catalog</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>845eaa26071740100df8f1e08c1ed07d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mid_application</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>085eaa26071740100df8f1e08c1ed07d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mid_server</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>885eaa26071740100df8f1e08c1ed07d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>calm_instance</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>0c5eaa26071740100df8f1e08c1ed07d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>485eaa26071740100df8f1e08c1ed07c</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>8c5eaa26071740100df8f1e08c1ed07d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>calm_version</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>005eaa26071740100df8f1e08c1ed07e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>use_external_credential_system</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>805eaa26071740100df8f1e08c1ed07e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credential</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>045eaa26071740100df8f1e08c1ed07e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>calm_admin_username</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>845eaa26071740100df8f1e08c1ed07e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>calm_admin_password</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>085eaa26071740100df8f1e08c1ed07e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_help_text</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>885eaa26071740100df8f1e08c1ed07e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>datadelflag</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-05 07:28:55</sys_created_on>
+            <sys_id>0c5eaa26071740100df8f1e08c1ed07e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Plugin Properties" display_value="Plugin Properties" name="x_nuta2_nutanix_ca_calm_plugin_configuration" sys_domain="global" view="Default view">08ac96ef3785a300fdfc097973990ef8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-05 07:28:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Plugin Properties</caption>
+            <header>false</header>
+            <name>x_nuta2_nutanix_ca_calm_plugin_configuration</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>girishgyani</sys_created_by>
+            <sys_created_on>2018-10-15 20:01:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08ac96ef3785a300fdfc097973990ef8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Plugin Properties</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Nutanix Calm" source="x_nuta2_nutanix_ca">3b7631654f452b001200e5201310c76b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nutanix Calm">3b7631654f452b001200e5201310c76b</sys_scope>
+            <sys_update_name>sys_ui_section_08ac96ef3785a300fdfc097973990ef8</sys_update_name>
+            <sys_updated_by>mumtaz.ansari</sys_updated_by>
+            <sys_updated_on>2018-12-10 10:28:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

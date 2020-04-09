@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>This is the Calm refresh token</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_nuta2_nutanix_ca.nuta_session_token</name>
+        <read_roles>x_nuta2_nutanix_ca.calm_admin,x_nuta2_nutanix_ca.user</read_roles>
+        <suffix>nuta_session_token</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-07 12:18:49</sys_created_on>
+        <sys_id>f1aca59507c49450c4dcf6fd7c1ed0b0</sys_id>
+        <sys_mod_count>140</sys_mod_count>
+        <sys_name>x_nuta2_nutanix_ca.nuta_session_token</sys_name>
+        <sys_package display_value="Nutanix Calm" source="x_nuta2_nutanix_ca">3b7631654f452b001200e5201310c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nutanix Calm">3b7631654f452b001200e5201310c76b</sys_scope>
+        <sys_update_name>sys_properties_f1aca59507c49450c4dcf6fd7c1ed0b0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-04-08 16:19:26</sys_updated_on>
+        <type>string</type>
+        <value>NTNX_IGW_SESSION=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VyX3Byb2ZpbGUiOiJ7XCJ1c2VybmFtZVwiOiBcImFkbWluXCIsIFwidXNlcnR5cGVcIjogXCJwcmlzbVwiLCBcImF1dGhlbnRpY2F0ZWRcIjogdHJ1ZSwgXCJfcGVybWFuZW50XCI6IHRydWUsIFwiZHNfZG9tYWluXCI6IG51bGwsIFwiYXBwX2RhdGFcIjoge30sIFwibG9nX3V1aWRcIjogXCJlMWI0ZDQwZC00MjgzLTRjMGQtOTJmNC1jZjBlN2FjNWI4YmNcIiwgXCJhdXRoX2luZm9cIjoge1widXNlcm5hbWVcIjogXCJhZG1pblwiLCBcInJlbW90ZV9hdXRob3JpemF0aW9uXCI6IG51bGwsIFwidXNlcl9ncm91cF91dWlkc1wiOiBudWxsLCBcInJlbW90ZV9hdXRoX2pzb25cIjogbnVsbCwgXCJzZXJ2aWNlX25hbWVcIjogbnVsbCwgXCJ0b2tlbl9hdWRpZW5jZVwiOiBudWxsLCBcInRva2VuX2lzc3VlclwiOiBudWxsLCBcInVzZXJfdXVpZFwiOiBcIjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMFwiLCBcInRlbmFudF91dWlkXCI6IFwiMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwXCJ9fSIsImp0aSI6ImU3NDRjOTkxLTgwM2MtNGY1OC1iYzFlLTc1ZjQ5ZGM0NmEyZSIsImlzcyI6IkF0aGVuYSIsImlhdCI6MTU4NjM2Mjc2NiwiZXhwIjoxNTg2MzYzNjY2fQ.LCsFRle1um3G7vwrBhcFXsMWYZIoXFNUKMCcMnNHaHJoWE2vzaZmwbVSwMxqo_obu7LzLrbryZD0hgOk_Howaqmi6cpKQpqmOQY7J9l0g1cWrIdoyifj4-fOuOt7M-0bbukDp8VzoN2UGxIrskINsP69gzjZGa37Ygy1zkThJT7KOsfAkb0tn1mST6b72Vf1hiYH1jQ2Y68Arz1MIO_shlxjj53KyoQHiCXyLpEZfHzCGy9UZFBiay0NKs1_Bk13Hmsn-7LK2lrTLP1pbS-AKJxpxwA4WzpaKvHDSobqmaRyBZB-E-hg7S21MfJ8Kzq-w11-Ixc10EyqbOtH3CF8wQ; Expires=Wed, 08-Apr-2020 16:34:26 GMT; HttpOnly; Path=/;HttpOnly;Secure</value>
+        <write_roles>x_nuta2_nutanix_ca.user</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=f1aca59507c49450c4dcf6fd7c1ed0b0"/>
+</record_update>

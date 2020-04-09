@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Clone_CustomAction">f06567a12f081010d5b9dcb6f699b651</sc_cat_item>
+        <sc_category display_value="Un-Published Blueprints">7a30431637512300fdfc097973990ec8</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:42:42</sys_created_on>
+        <sys_id>b065a7a12f081010d5b9dcb6f699b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Un-Published Blueprints.Clone_CustomAction</sys_name>
+        <sys_package display_value="Nutanix Calm" source="x_nuta2_nutanix_ca">3b7631654f452b001200e5201310c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nutanix Calm">3b7631654f452b001200e5201310c76b</sys_scope>
+        <sys_update_name>sc_cat_item_category_b065a7a12f081010d5b9dcb6f699b61e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:42:42</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

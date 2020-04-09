@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Tripti_BP_projdelete_test_MPI">8f06a7212f481010d5b9dcb6f699b6d3</sc_cat_item>
+        <sc_category display_value="Published Blueprints">88bfbad237512300fdfc097973990e06</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 15:45:36</sys_created_on>
+        <sys_id>5b06e7212f481010d5b9dcb6f699b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Published Blueprints.Tripti_BP_projdelete_test_MPI</sys_name>
+        <sys_package display_value="Nutanix Calm" source="x_nuta2_nutanix_ca">3b7631654f452b001200e5201310c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nutanix Calm">3b7631654f452b001200e5201310c76b</sys_scope>
+        <sys_update_name>sc_cat_item_category_5b06e7212f481010d5b9dcb6f699b6a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 15:45:36</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
